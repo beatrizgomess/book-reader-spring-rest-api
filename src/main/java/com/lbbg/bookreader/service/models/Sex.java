@@ -1,4 +1,4 @@
-package com.lbbg.bookreader.entity;
+package com.lbbg.bookreader.service.models;
 
 public enum Sex {
     FEM, MASC, OUTRO
