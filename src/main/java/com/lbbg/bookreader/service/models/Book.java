@@ -4,6 +4,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.util.Date;
 import java.util.List;
 
@@ -11,7 +15,11 @@ import java.util.List;
 @Getter
 @NoArgsConstructor
 public class Book {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
+    @Column()
     private String title;
     private String caption;
     private List<Author> autors;

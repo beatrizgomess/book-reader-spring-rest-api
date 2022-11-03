@@ -1,4 +1,4 @@
-package com.lbbg.bookreader.dao;
+package com.lbbg.bookreader.persistence.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

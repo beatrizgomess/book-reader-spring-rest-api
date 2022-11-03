@@ -1,6 +1,4 @@
-package com.lbbg.bookreader.repository;
-
-import com.lbbg.bookreader.entity.Role;
+package com.lbbg.bookreader.persistence.repository;
 
 import java.util.List;
 import java.util.Optional;
